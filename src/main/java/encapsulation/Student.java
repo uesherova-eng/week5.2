@@ -1,7 +1,5 @@
 package encapsulation;
-
 import java.util.ArrayList;
-
 public class Student {
     private int student_id;
     private String student_name;

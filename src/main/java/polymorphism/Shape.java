@@ -1,5 +1,4 @@
 package polymorphism;
-
 public class Shape {
     public double calculateArea(){
         return 0;
@@ -26,7 +25,6 @@ class Rectangle extends Shape{
     }
     public double calculateArea(){
         return  length*width;
-
     }
 }
 class Triangle extends Shape{

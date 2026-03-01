@@ -1,17 +1,14 @@
 package inheritance;
-
 public class Vehicle2 {
     protected String make;
     protected String model;
     protected int year;
     protected String fuelType;
-
     public Vehicle2(String make,String model,int year, String fuelType){
         this.make=make;
         this.model=model;
         this.year=year;
         this.fuelType=fuelType;
-
     }
     public double calculateFuelEfficiency(){
         return 0;
@@ -36,16 +33,12 @@ class Truck extends Vehicle2 {
             super(make, model, year, fuelType);
             this.cargoCapacity = cargoCapacity;
         }
-
-
         public double calculateFuelEfficiency() {
             return 8;
         }
-
         public double getMaxSpeed() {
             return 120;
         }
-
         public double getCargoCapacity() {
             return cargoCapacity;
         }
@@ -57,19 +50,15 @@ class Car2 extends Vehicle2 {
         super(make, model, year, fuelType);
         this.numDoors = numDoors;
     }
-
     public double calculateFuelEfficiency() {
         return 15;
     }
-
     public double getMaxSpeed() {
         return 180;
-
     }
 }
 class Motorcycle extends Vehicle2 {
     private boolean hasSidecar;
-
     public Motorcycle(String make, String model, int year, String fuelType, boolean hasSidecar) {
         super(make, model, year, fuelType);
         this.hasSidecar = hasSidecar;

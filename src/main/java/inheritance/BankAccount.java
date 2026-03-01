@@ -1,8 +1,6 @@
 package inheritance;
-
 public class BankAccount {
     protected double balance;
-
     public BankAccount(double balance){
         this.balance=balance;
     }
@@ -22,7 +20,6 @@ public class BankAccount {
         return balance;
     }
 }
-
 class SavingAccount extends BankAccount{
     public SavingAccount(double balance){
         super(balance);

@@ -1,26 +1,20 @@
 package polymorphism;
-
 public class Shape2 {
     public double getArea() {
         return 0;
     }
-
     public double getPerimeter() {
         return 0;
     }
 }
-
 class Circle2 extends Shape2 {
     private double radius;
-
     public Circle2(double radius) {
         this.radius = radius;
     }
-
     public double getArea() {
         return Math.PI * radius * radius;
     }
-
     public double getPerimeter() {
         return 2 * Math.PI * radius;
     }
@@ -28,16 +22,13 @@ class Circle2 extends Shape2 {
 class Rectangle2 extends Shape2 {
     private double length;
     private double width;
-
     public Rectangle2(double length, double width) {
         this.length = length;
         this.width = width;
     }
-
     public double getArea() {
         return length * width;
     }
-
     public double getPerimeter() {
         return 2 * (length + width);
     }

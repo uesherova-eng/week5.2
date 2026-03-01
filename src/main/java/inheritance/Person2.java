@@ -1,9 +1,7 @@
 package inheritance;
-
 public class Person2 {
     private String firstName;
     private String lastName;
-
     public Person2(String firstName, String lastName) {
         this.firstName = firstName;
         this.lastName = lastName;
@@ -11,7 +9,6 @@ public class Person2 {
     public String getFirstName(){
         return firstName;
     }
-
     public String getLastName() {
         return lastName;
     }
@@ -25,7 +22,6 @@ class Employee2 extends Person2{
         this.employeeId = employeeId;
         this.jobTitle = jobTitle;
     }
-
     public int getEmployeeId() {
         return employeeId;
     }

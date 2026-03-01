@@ -1,5 +1,4 @@
 package inheritance;
-
 public class MainInheritance {
     public static void main(String[] args) {
         System.out.println(1);
@@ -12,11 +11,8 @@ public class MainInheritance {
         System.out.println(2);
         Vehicle vehicle=new Vehicle();
         Car car=new Car();
-
         vehicle.drive();
         car.drive();
-
-
         System.out.println(3);
         Rectangle rectangle=new Rectangle(20,10);
         System.out.println("Area of rectangle: "+rectangle.getArea());
@@ -39,8 +35,6 @@ public class MainInheritance {
         Cheetah cheetah=new Cheetah();
         animal1.move();
         cheetah.move();
-
-
         System.out.println(7);
         Employee2 employee=new Employee2("Patriot","Kuchin",10109,"Manager");
 
@@ -55,9 +49,7 @@ public class MainInheritance {
         System.out.println("Perimeter : "+circle.getPerimeter());
         System.out.println("Area: "+circle.getArea());
 
-
         System.out.println(9);
-
         Truck truck=new Truck("Ford","Maverick",2004,"Gaz",5.5);
         Car2 car2=new Car2("Mers","Benz",1993,"Diesel",3);
         Motorcycle bike = new Motorcycle("Harley", "Sport", 2021, "Gasoline", false);
@@ -66,7 +58,6 @@ public class MainInheritance {
         truck.PrintInfo();
         System.out.println("Fuel Efficiency: " + truck.calculateFuelEfficiency() + " km/l");
         System.out.println("Max Speed: " + truck.getMaxSpeed() + " km/h");
-
         System.out.println("=== CAR ===");
         car2.PrintInfo();
         System.out.println("Fuel Efficiency: " + car2.calculateFuelEfficiency() + " km/l");

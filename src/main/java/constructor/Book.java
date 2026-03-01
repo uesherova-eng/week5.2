@@ -1,10 +1,8 @@
 package constructor;
-
 public class Book {
    private String title;
    private String author;
    private int price;
-
    public Book(){
        this.title="Unknown";
        this.author="Unknown";

@@ -1,10 +1,8 @@
 package polymorphism;
-
 public class Animal4 {
     public void eat() {
         System.out.println("Animal eats");
     }
-
     public void sound() {
         System.out.println("Animal makes sound");
     }
@@ -26,9 +24,7 @@ class Tiger extends Animal4 {
         System.out.println("Tiger growls");
     }
 }
-
 class Panther4 extends Animal4 {
-
     public void eat() {
         System.out.println("Panther eats small animals");
     }

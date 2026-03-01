@@ -1,5 +1,4 @@
 package polymorphism;
-
 public class Shape3 {
     public void draw(){
         System.out.println("Drawing a shape");
@@ -13,24 +12,20 @@ class Circle3 extends Shape3{
     public Circle3(double radius){
         this.radius=radius;
     }
-
     public void draw() {
         System.out.println("Drawing a circle");
     }
-
     public double calculateArea() {
         return Math.PI*radius*radius;
     }
 }
 class Square extends Shape3{
     private double side;
-
     public Square(double side){
         this.side=side;
     }
     public void draw(){
         System.out.println("Drawing a square");
-
     }
     public double calculateArea(){
         return side*side;

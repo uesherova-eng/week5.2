@@ -3,7 +3,7 @@ package polymorphism;
 public class Vehicle {
     protected int speed;
 
-    public void speeddUp(){
+    public void speedUp(){
         speed +=5;
         System.out.println("Vehicle speed increased to: " + speed);
     }

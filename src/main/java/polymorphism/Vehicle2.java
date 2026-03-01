@@ -1,8 +1,6 @@
 package polymorphism;
-
 public class Vehicle2 {
     protected boolean engineRunning;
-
     public void startEngine(){
         engineRunning=true;
         System.out.println("Vehicle engine started");

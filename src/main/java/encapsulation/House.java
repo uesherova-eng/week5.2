@@ -1,10 +1,8 @@
 package encapsulation;
-
 public class House {
     private String address;
     private int numberOfRooms;
     private double area;
-
     public String getAddress(){
         return address;
     }
@@ -20,7 +18,7 @@ public class House {
         this.address = address;
     }
 
-    public void setNumberofRooms(int numberOfRooms) {
+    public void setNumberOfRooms(int numberOfRooms) {
         this.numberOfRooms = numberOfRooms;
     }
 
@@ -30,6 +28,4 @@ public class House {
     public double calculatePrice(double pricePerSquareMeter){
         return area*pricePerSquareMeter;
     }
-
-
 }

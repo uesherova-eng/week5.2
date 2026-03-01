@@ -1,5 +1,4 @@
 package polymorphism;
-
 public class Shape4 {
     public void draw() {
         System.out.println("Drawing a shape");
@@ -24,7 +23,6 @@ class Circle4 extends Shape4 {
 class Cylinder extends Shape4 {
     private double radius;
     private double height;
-
     public Cylinder(double radius, double height) {
         this.radius = radius;
         this.height = height;

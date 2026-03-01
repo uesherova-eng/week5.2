@@ -1,8 +1,6 @@
 package polymorphism;
-
 public class MainPolymorphism {
     public static void main(String[] args) {
-
         System.out.println(1);
         Animal animal=new Bird();
         Animal animal1=new Cat();
@@ -12,8 +10,8 @@ public class MainPolymorphism {
         System.out.println(2);
         Vehicle car=new Car();
         Vehicle bicycle=new Bicycle();
-        car.speeddUp();
-        bicycle.speeddUp();
+        car.speedUp();
+        bicycle.speedUp();
 
         System.out.println(3);
         Shape circle=new Circle(5);
@@ -23,13 +21,11 @@ public class MainPolymorphism {
         System.out.println("Rectangle area: "+rectangle.calculateArea());
         System.out.println("Triangle area: "+triangle.calculateArea());
 
-
         System.out.println(4);
         Employee manager=new Manager("Salami",35000);
         Employee programmer=new Programmer("Venera",55000);
         System.out.println("Manager salary: "+manager.calculateSalary());
         System.out.println("Programmer salary: "+programmer.calculateSalary());
-
 
         System.out.println(5);
         Sports football=new Football();
@@ -39,7 +35,6 @@ public class MainPolymorphism {
         football.play();
         basketball.play();
         rugby.play();
-
 
         System.out.println(6);
         Shape2 circle2 = new Circle2(5);
@@ -80,26 +75,19 @@ public class MainPolymorphism {
         savings.withdraw(100);
         savings.withdraw(100);
         savings.withdraw(100);
-
         checking.withdraw(100);
         checking.withdraw(100);
-
 
         System.out.println(10);
         Animal4 lion = new Lion();
         Animal4 tiger = new Tiger();
         Animal4 panther4 = new Panther4();
-
         lion.eat();
         lion.sound();
-
         tiger.eat();
         tiger.sound();
-
         panther4.eat();
         panther4.sound();
-
-
 
         System.out.println(11);
         Vehicle2 car2 = new Car2();

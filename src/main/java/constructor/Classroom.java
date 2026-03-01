@@ -4,9 +4,9 @@ public class Classroom {
     String className;
     String[] students;
 
-    public Classroom(String className,String[]strudents){
+    public Classroom(String className,String[]students){
         this.className=className;
-        this.students=strudents;
+        this.students=students;
 
     }
     public void printInfo(){

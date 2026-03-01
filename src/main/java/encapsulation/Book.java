@@ -1,10 +1,8 @@
 package encapsulation;
-
 public class Book {
     private String title;
     private String author;
     private double price;
-
     public String getTitle(){
         return title;
     }
@@ -17,7 +15,6 @@ public class Book {
     public void setTitle(String title) {
         this.title = title;
     }
-
     public void setAuthor(String author) {
         this.author = author;
     }

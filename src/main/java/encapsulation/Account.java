@@ -1,40 +1,26 @@
 package encapsulation;
-
 public class Account {
     private String accountNumber;
     private String accountHolder;
     private double balance;
-
     public String getAccountNumber(){
-        return accountNumber;
-    }
-
+        return accountNumber;}
     public String getAccountHolder() {
-        return accountHolder;
-    }
-
+        return accountHolder;}
     public double getBalance() {
-        return balance;
-    }
+        return balance;}
     public void setAccountNumber(String accountNumber){
-        this.accountNumber=accountNumber;
-
-    }
-
+        this.accountNumber=accountNumber;}
     public void setAccountHolder(String accountHolder) {
-        this.accountHolder = accountHolder;
-    }
-
+        this.accountHolder = accountHolder;}
     public void setBalance(double balance) {
-        this.balance = balance;
-    }
+        this.balance = balance;}
     public void deposit(double amount){
         if(amount>0){
             balance+=amount;
             System.out.println("Deposited: "+amount);
         }else {
-            System.out.println("Invalid");
-        }
+            System.out.println("Invalid");}
     }
         public void withdraw(double amount) {
             if (amount > 0 && amount <= balance) {

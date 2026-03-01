@@ -8,13 +8,11 @@ public class Main {
         System.out.println(cat.getAge());
         System.out.println();
 
-
         System.out.println("2 Parametrized Constructor");
         Dog dog=new Dog("red","Kola");
         System.out.println("Color: "+dog.getColor());
         System.out.println("Name: "+dog.getName());
         System.out.println();
-
 
         System.out.println("3 Constructor Overloading");
         Book book=new Book();
@@ -28,7 +26,6 @@ public class Main {
         System.out.println();
         book2.info();
         System.out.println();
-
 
         System.out.println("4 Chaining Constructors");
         Student student1=new Student();

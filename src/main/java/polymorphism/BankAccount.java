@@ -1,17 +1,13 @@
 package polymorphism;
-
 public class BankAccount {
     protected double balance;
-
     public BankAccount(double balance) {
         this.balance = balance;
     }
-
     public void deposit(double amount) {
         balance += amount;
         System.out.println("Deposited: " + amount);
     }
-
     public void withdraw(double amount) {
         if (amount <= balance) {
             balance -= amount;
@@ -20,11 +16,8 @@ public class BankAccount {
             System.out.println("Insufficient funds");
         }
     }
-
     public double getBalance() {
         return balance;
-
-
     }
 }
 class SavingsAccount extends BankAccount {
@@ -34,7 +27,6 @@ class SavingsAccount extends BankAccount {
     public SavingsAccount(double balance) {
         super(balance);
     }
-
     public void withdraw(double amount) {
         if (withdrawals < withdrawalLimit) {
             if (amount <= balance) {

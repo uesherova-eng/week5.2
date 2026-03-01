@@ -1,11 +1,8 @@
 package encapsulation;
-
 public class MainEncapsulation {
     public static void main(String[] args) {
-
         System.out.println(1);
         Person person=new Person();
-
         person.setName("Nurel");
         person.setAge(57);
         person.setCountry("Brazil");
@@ -32,7 +29,6 @@ public class MainEncapsulation {
         System.out.println("Width: " + rectangle.getWidth());
         System.out.println();
 
-
         System.out.println(4);
         Employee employee = new Employee();
 
@@ -45,16 +41,15 @@ public class MainEncapsulation {
         System.out.println("Salary: " + employee.getEmployee_salary());
         System.out.println();
 
-
         System.out.println(5);
         Circle circle=new Circle();
         circle.setRadius(3.2);
+
 
         System.out.println("Radius: " + circle.getRadius());
         System.out.println("Area: " + circle.calculateArea());
         System.out.println("Perimeter: " + circle.calculatePerimeter());
         System.out.println();
-
 
         System.out.println(6);
         Car car=new Car();
@@ -62,12 +57,12 @@ public class MainEncapsulation {
         car.setCompany_name("Mers");
         car.setModel_name("Benz");
         car.setYear(1993);
+        car.setMileage(54.54);
 
         System.out.println("Company: " + car.getCompany_name());
         System.out.println("Model: " + car.getModel_name());
         System.out.println("Year: " + car.getYear());
         System.out.println("Mileage: " + car.getMileage());
-
         System.out.println();
 
         System.out.println(7);
@@ -95,7 +90,6 @@ public class MainEncapsulation {
         System.out.println("Author: " + book.getAuthor());
         System.out.println("Price: $" + book.getPrice());
 
-
         book.applyDiscount(10);
         System.out.println("Price after discount: "+book.getPrice());
 
@@ -106,6 +100,7 @@ public class MainEncapsulation {
         phone.setBrand("Samsung");
         phone.setBrand("Galaxy S25 Ultra");
         phone.setStorageCapacity(256);
+        phone.setModel("S24Ultra");
 
         System.out.println("Brand: " + phone.getBrand());
         System.out.println("Model: " + phone.getModel());
@@ -128,22 +123,19 @@ public class MainEncapsulation {
 
         desktop.upgradeRam(20);
         System.out.println("New RAM: " + desktop.getRamSize() + "GB");
-
-
         System.out.println();
         System.out.println(11);
         House house=new House();
 
         house.setAddress("Lenina 122A");
-        house.setNumberofRooms(7);
+        house.setNumberOfRooms(5);
         house.setArea(300.0);
         System.out.println("Address: " + house.getAddress());
         System.out.println("Rooms: " + house.getNumberOfRooms());
         System.out.println("Area: " + house.getArea() + " sqm");
         System.out.println("Price: " + house.calculatePrice(2500));
-
-
         System.out.println();
+
         System.out.println(12);
 
         Account account1=new Account();
@@ -155,15 +147,13 @@ public class MainEncapsulation {
         System.out.println("Holder: " + account1.getAccountHolder());
         System.out.println("Balance: $" + account1.getBalance());
 
-
         account1.deposit(500);
         System.out.println("Balance after deposit: " + account.getBalance());
 
         account1.withdraw(200);
         System.out.println("Balance after withdrawal: " + account.getBalance());
-
-
         System.out.println();
+
         System.out.println(13);
         Movie movie=new Movie();
         movie.setTitle("Bunker");

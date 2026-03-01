@@ -8,7 +8,7 @@ public class Shape2 {
         return 0;
     }
 }
-class Circle extends Shape{
+class Circle extends Shape2{
     private double radius;
 
     public Circle(double radius){
